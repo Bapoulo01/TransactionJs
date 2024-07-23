@@ -1,0 +1,65 @@
+{
+    "clients": [
+    {
+        "id":1,
+        "prenom": "Amadou",
+        "nom": "Ba",
+        "tel": "0123456789"
+    },
+    {
+        "id":2,
+        "prenom": "Momo",
+        "nom": "Dieng Diallo",
+        "tel": "0123456789"
+    },
+    {
+        "id":3,
+        "prenom": "Khadija",
+        "nom": "Sow",
+        "tel": "0123456789"
+    }
+],
+"comptes": [
+    {
+        "id":1,
+        "numero": "CP0001",
+        "solde": 10000,
+        "datecrea":"12/07/2024",
+        "ClientID": 1
+    },
+    {
+        "id":2,
+        "numero": "CP0002",
+        "solde": 150000,
+        "datecrea":"10/07/2024",
+        "ClientID": 2
+    },
+    {
+        "id":2,
+        "numero": "CP0002",
+        "solde": 150000,
+        "datecrea":"10/07/2024",
+        "ClientID": 3
+    }
+],
+"transaction": [
+    {
+        "id":1,
+        "date":"12/07/2024",
+        "montant":2500,
+        "CompteID":1
+    },
+    {
+        "id":2,
+        "date":"15/07/2024",
+        "montant":3500,
+        "CompteID":2
+    },
+    {
+        "id":1,
+        "date":"20/07/2024",
+        "montant":5000,
+        "CompteID":3
+    }
+]
+}

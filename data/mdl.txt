@@ -1,0 +1,3 @@
+client(id,prenom,nom,tel)
+compte(id,numero,solde,datecrea,#ClientID)
+transaction(id,date,montant,#CompteID)
